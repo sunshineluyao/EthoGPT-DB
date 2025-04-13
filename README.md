@@ -4,7 +4,7 @@
 [![Colab Notebook](https://img.shields.io/badge/Open%20in-Google%20Colab-orange?logo=googlecolab)](https://colab.research.google.com/github/sunshineluyao/EthoGPT-DB/blob/main/ChatGPT/EthoGPT_ChatGPT_Comparatives.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Made with GPT-4](https://img.shields.io/badge/Made%20with-GPT--4-purple?logo=openai)](https://openai.com/gpt-4)
-[![Hugging Face Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-yellow?logo=huggingface)](https://huggingface.co/datasets)
+
 
 ---
 
