@@ -10,7 +10,7 @@
 
 <div align="center">
   <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-10.jpg" alt="SDG 10: Reduced Inequalities" height="65"/>
-  <img src="https://sdgs.un.org/sites/default/files/2023-09/11_0.jpg" alt="SDG 11.4: Cultural Heritage" height="65"/>
+  <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-11.jpg" alt="SDG 11.4: Cultural Heritage" height="65"/>
   <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-16.jpg" alt="SDG 16: Peace and Justice" height="65"/>
 </div>
 
@@ -34,8 +34,6 @@ EthosGPT positions value diversity as a cornerstone of societal innovation and s
 </p>
 
 </div>
-
----
 
 
 ---
