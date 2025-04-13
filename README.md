@@ -1,6 +1,5 @@
 # EthosGPT: Mapping Human Value Diversity to Advance Sustainable Development Goals (SDGs)
 
-<h1 align="center">EthosGPT: Mapping Human Value Diversity to Advance Sustainable Development Goals (SDGs)</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/OpenAI-GPT--4-purple?logo=openai&logoColor=white&style=for-the-badge"/>
