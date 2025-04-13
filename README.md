@@ -58,21 +58,30 @@ To better evaluate cultural alignment, future extensions will integrate datasets
 Incorporating these data sources will expand EthosGPT’s cultural breadth.
 
 ---
-
 ### 🧠 2. Evaluating Additional LLMs
 
-Beyond GPT-4, we aim to benchmark cultural reasoning across diverse models:
+Beyond GPT-4, we aim to benchmark cultural reasoning across a diverse range of frontier models:
 
-- **GPT-4o** (OpenAI): Multimodal with long context [@lund2024gpt4o]  
-- **Gemini 1.5 Pro** (Google): 1M-token context model [@gemini2024]  
-- **Claude 3 Opus** (Anthropic): Ethical reasoning focus [@claude]  
-- **GLM** (Zhipu AI): Open-source Chinese-led LLM [@GLM]  
-- **DeepSeek V3**: Mixture-of-experts model with 671B parameters [@DeepSeek]  
-- **Qwen2.5** (Alibaba): Instruction-tuned and multilingual [@Qwen]
+- ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-7348bd?logo=openai&logoColor=white&style=flat-square)  
+  **GPT-4o** – Multimodal with long context and faster response times [@lund2024gpt4o]
 
-Evaluating these models will illuminate how architecture and training data impact cultural representation.
+- ![Google](https://img.shields.io/badge/Google-Gemini%201.5%20Pro-4285F4?logo=google&logoColor=white&style=flat-square)  
+  **Gemini 1.5 Pro** – 1M-token context window and strong reasoning abilities [@gemini2024]
 
----
+- ![Anthropic](https://img.shields.io/badge/Anthropic-Claude%203%20Opus-121212?logo=anthropic&logoColor=white&style=flat-square)  
+  **Claude 3 Opus** – Emphasizes safety, interpretability, and ethical alignment [@claude]
+
+- ![Zhipu AI](https://img.shields.io/badge/Zhipu%20AI-GLM-blue?style=flat-square)  
+  **GLM** – Chinese open-source model advancing transparency and inclusivity [@GLM]
+
+- ![DeepSeek](https://img.shields.io/badge/DeepSeek-V3-222222?style=flat-square)  
+  **DeepSeek V3** – Mixture-of-experts model with 671B parameters [@DeepSeek]
+
+- ![Alibaba Cloud](https://img.shields.io/badge/Alibaba-Qwen2.5-FE9600?logo=alibabacloud&logoColor=white&style=flat-square)  
+  **Qwen2.5** – Instruction-tuned, multilingual, and optimized for long-text generation [@Qwen]
+
+Evaluating these models will illuminate how model architecture, training data, and geographic origin shape cultural alignment and value representation in AI systems.
+
 
 ### 🧬 3. Enhancing Underrepresented Perspectives
 
