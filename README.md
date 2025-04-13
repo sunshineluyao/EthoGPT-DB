@@ -83,57 +83,83 @@ This repository supports the paper:
 
 ## 🔭 Roadmap & Future Research
 
-This project lays the groundwork for ongoing exploration into culturally inclusive AI. Below are several future directions:
+EthosGPT lays the foundation for more inclusive, culturally aware AI. The roadmap below outlines key future directions to scale its impact and global relevance.
+
+---
+
+### 🌳 Overview Tree
+
+```plaintext
+EthosGPT Roadmap
+├── 🧩 Expand Cultural Indices
+│   ├── Hofstede Dimensions
+│   ├── ESS/EVS Distance Indices
+│   ├── GLOBE Leadership Study
+│   ├── D-PLACE (Ethnography & Ecology)
+│   └── Ecology-Culture Dataset
+├── 🧠 Evaluate Diverse LLMs
+│   ├── GPT-4o (OpenAI)
+│   ├── Gemini 1.5 Pro (Google)
+│   ├── Claude 3 (Anthropic)
+│   ├── GLM (Zhipu AI)
+│   ├── DeepSeek V3
+│   └── Qwen2.5 (Alibaba)
+└── 🧬 Enhance Underrepresented Voices
+    ├── 3D Cultural Digitization
+    ├── Inclusive Training Filters
+    ├── Socioeconomic Prompting
+    ├── CCSV Self-Assessment
+    └── CultureLLM Fine-Tuning
+```
+
+---
 
 ### 🧩 1. Expanding Cultural Indices
 
-To better evaluate cultural alignment, future extensions will integrate datasets beyond the World Values Survey, including:
+| Dataset                  | Focus Area                         | Reference                              |
+|--------------------------|-------------------------------------|-----------------------------------------|
+| Hofstede Dimensions      | Cultural value scoring across 6 axes| [@hofstede2011dimensionalizing]         |
+| ESS/EVS Distance Indices | Regional value differences in Europe| [@kaasa2016dataset]                     |
+| GLOBE Study              | Leadership & society-wide values    | [@house2004globe]                      |
+| D-PLACE                  | Culture–language–environment links  | [@kirby2016dplace]                      |
+| Ecology-Culture Dataset  | Environmental effects on culture    | [@wormley2022ecology]                   |
 
-- **Hofstede’s Cultural Dimensions** for global cultural value scoring [@hofstede2011dimensionalizing]
-- **ESS/EVS Cultural Distance Indices** for European regional comparisons [@kaasa2016dataset]
-- **GLOBE Study** on leadership and societal culture [@house2004globe]
-- **D-PLACE**: linking geography, ecology, and ethnography [@kirby2016dplace]
-- **Ecology-Culture Dataset** for environment–culture correlation [@wormley2022ecology]
-
-Incorporating these data sources will expand EthosGPT’s cultural breadth.
+Expanding EthosGPT's coverage with these datasets will strengthen its analytical power and global representation.
 
 ---
-### 🧠 2. Evaluating Additional LLMs
 
-Beyond GPT-4, we aim to benchmark cultural reasoning across a diverse range of frontier models:
+### 🧠 2. Benchmarking Frontier LLMs
 
-- ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-7348bd?logo=openai&logoColor=white&style=flat-square)  
-  **GPT-4o** – Multimodal with long context and faster response times [@lund2024gpt4o]
+We aim to evaluate the cultural alignment of the most advanced LLMs available today:
 
-- ![Google](https://img.shields.io/badge/Google-Gemini%201.5%20Pro-4285F4?logo=google&logoColor=white&style=flat-square)  
-  **Gemini 1.5 Pro** – 1M-token context window and strong reasoning abilities [@gemini2024]
+| Model          | Developer      | Key Features                                 | Badge |
+|----------------|----------------|----------------------------------------------|--------|
+| GPT-4o         | OpenAI         | 🔁 Multimodal, long context, fast response    | ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-7348bd?logo=openai&logoColor=white&style=flat-square) |
+| Gemini 1.5 Pro | Google DeepMind| 📚 1M-token context, strong reasoning         | ![Google](https://img.shields.io/badge/Google-Gemini%201.5%20Pro-4285F4?logo=google&logoColor=white&style=flat-square) |
+| Claude 3 Opus  | Anthropic      | 🧠 Ethical alignment & interpretability       | ![Anthropic](https://img.shields.io/badge/Anthropic-Claude%203%20Opus-121212?logo=anthropic&logoColor=white&style=flat-square) |
+| GLM            | Zhipu AI       | 🌏 Open-source, community-driven              | ![Zhipu AI](https://img.shields.io/badge/Zhipu%20AI-GLM-blue?style=flat-square) |
+| DeepSeek V3    | DeepSeek       | 🤖 MoE architecture, 671B parameters          | ![DeepSeek](https://img.shields.io/badge/DeepSeek-V3-222222?style=flat-square) |
+| Qwen2.5        | Alibaba         | 🧾 Instruction-tuned, multilingual            | ![Alibaba](https://img.shields.io/badge/Alibaba-Qwen2.5-FE9600?logo=alibabacloud&logoColor=white&style=flat-square) |
 
-- ![Anthropic](https://img.shields.io/badge/Anthropic-Claude%203%20Opus-121212?logo=anthropic&logoColor=white&style=flat-square)  
-  **Claude 3 Opus** – Emphasizes safety, interpretability, and ethical alignment [@claude]
+This benchmark will reveal how architecture and data origin influence cultural representation.
 
-- ![Zhipu AI](https://img.shields.io/badge/Zhipu%20AI-GLM-blue?style=flat-square)  
-  **GLM** – Chinese open-source model advancing transparency and inclusivity [@GLM]
+---
 
-- ![DeepSeek](https://img.shields.io/badge/DeepSeek-V3-222222?style=flat-square)  
-  **DeepSeek V3** – Mixture-of-experts model with 671B parameters [@DeepSeek]
+### 🧬 3. Enhancing Representation of Underrepresented Perspectives
 
-- ![Alibaba Cloud](https://img.shields.io/badge/Alibaba-Qwen2.5-FE9600?logo=alibabacloud&logoColor=white&style=flat-square)  
-  **Qwen2.5** – Instruction-tuned, multilingual, and optimized for long-text generation [@Qwen]
+| Strategy                      | Description                                                                  | Reference                              |
+|-------------------------------|------------------------------------------------------------------------------|------------------------------------------|
+| 🏛️ Cultural Digitization      | 3D scanning and virtual records to preserve heritage                        | [@ocon2021digitalising]                 |
+| 🌍 Inclusive Data Filtering    | Cultural/socioeconomic-aware dataset curation                               | [@pouget2024filterculturalsocioeconomicdiversity] |
+| 🧭 Prompt Personalization      | Injecting regional & class-aware variables into prompts                     | [@nwatu2024upliftinglowerincomedatastrategies] |
+| 🗳️ CCSV Self-Voting           | Use model critiques & voting for demographic fairness                      | [@lahoti-etal-2023-improving]           |
+| 🧠 CultureLLM Fine-Tuning      | Semantic augmentation & culture-specific alignment                          | [@li2024culturellmincorporatingculturaldifferences] |
 
-Evaluating these models will illuminate how model architecture, training data, and geographic origin shape cultural alignment and value representation in AI systems.
+These innovations aim to improve the fairness, inclusivity, and ethical sensitivity of LLM outputs.
 
+---
 
-### 🧬 3. Enhancing Underrepresented Perspectives
-
-We will prioritize:
-
-- **Digitizing endangered cultures** using techniques like 3D scanning [@ocon2021digitalising]
-- **Diversifying training corpora** by filtering for cultural and socioeconomic inclusion [@pouget2024filterculturalsocioeconomicdiversity]
-- **Prompt engineering** to foreground underrepresented voices [@nwatu2024upliftinglowerincomedatastrategies]
-- **Collective critiques + self-voting** (CCSV) to improve demographic equity [@lahoti-etal-2023-improving]
-- **CultureLLM-style fine-tuning** with semantic augmentation [@li2024culturellmincorporatingculturaldifferences]
-
-These strategies will improve LLM fairness, accountability, and cultural adaptability.
+✨ *These roadmap pillars ensure that EthosGPT evolves as a globally inclusive, interdisciplinary, and ethically grounded framework for cultural intelligence in AI.*
 
 ---
 
