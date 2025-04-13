@@ -17,19 +17,30 @@
 
 <div align="justify">
 
-<h3>Abstract</h3>
+<h3>📄 Abstract</h3>
 
 <p>
-Large language models (LLMs) are reshaping global decision-making and societal systems through their capacity to process vast, diverse datasets. However, their potential to homogenize human values—mirroring the risks of biodiversity loss in ecosystems—threatens cultural diversity and ethical resilience. 
-This study introduces <strong>EthosGPT</strong>, an open-source framework designed to systematically map and evaluate LLMs against a globally representative spectrum of human values.
+🌐 <strong>Large Language Models (LLMs)</strong> are reshaping global decision-making and societal systems through their ability to process vast and diverse datasets. However, their potential to homogenize human values—mirroring the risks of biodiversity loss in ecosystems—poses serious challenges to cultural diversity and ethical resilience.
 
-By integrating cross-cultural survey data, interactive prompt-based evaluations with measurable outputs, and comparative statistical analyses, EthosGPT quantifies the cultural adaptability of LLMs while identifying critical disparities between AI-generated value indices and those of human populations across 100+ countries.
+🚀 This study introduces <strong>EthosGPT</strong>, an open-source framework designed to systematically <em>map and evaluate LLMs</em> against a globally representative spectrum of human values. 
 
-Findings reveal that while LLMs demonstrate partial alignment with localized cultural norms, significant gaps persist—particularly in underrepresented regions. To address this, the framework provides actionable strategies for developing inclusive AI systems, such as diversifying training datasets and prioritizing digital preservation of endangered cultural heritage. 
+📊 By integrating cross-cultural survey data, interactive prompt-based evaluations with measurable outputs, and comparative statistical analyses, EthosGPT quantifies the cultural adaptability of LLMs while identifying critical disparities between AI-generated value indices and those of human populations across 100+ countries.
 
-These measures directly support <strong>SDG 10 (Reduced Inequalities)</strong> and <strong>SDG 11.4 (Cultural Heritage Preservation)</strong>, ensuring equitable representation in AI technologies. 
+🧩 Findings reveal that while LLMs demonstrate partial alignment with localized cultural norms, significant gaps persist—especially in underrepresented regions. To mitigate these issues, EthosGPT offers actionable strategies for building inclusive AI systems:
+<ul>
+  <li>📚 Diversifying training datasets</li>
+  <li>🏛️ Digitally preserving endangered cultural heritage</li>
+</ul>
 
-EthosGPT positions value diversity as a cornerstone of societal innovation and sustainable prosperity. Through open-source tools and interdisciplinary collaboration, it advocates for AI systems that harmonize technical rigor with ethical pluralism. By bridging cultural gaps in machine learning, this work advances AI governance frameworks aligned with <strong>SDG 16 (Peace and Justice)</strong> and fosters equitable progress in a globally interconnected future.
+🎯 These efforts support the following UN Sustainable Development Goals (SDGs):
+<ul>
+  <li>🔟 <strong>SDG 10:</strong> Reduced Inequalities</li>
+  <li>🏛️ <strong>SDG 11.4:</strong> Cultural Heritage Preservation</li>
+  <li>⚖️ <strong>SDG 16:</strong> Peace, Justice & Strong Institutions</li>
+</ul>
+
+🌱 <strong>EthosGPT</strong> positions value diversity as a cornerstone of societal innovation and sustainable prosperity. Through open-source tools and interdisciplinary collaboration, it advocates for AI systems that harmonize <em>technical rigor</em> with <em>ethical pluralism</em>. By bridging cultural gaps in machine learning, this work advances global AI governance frameworks toward a more inclusive and equitable future.
+
 </p>
 
 </div>
